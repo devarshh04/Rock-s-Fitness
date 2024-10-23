@@ -1,0 +1,31 @@
+/* src/components/Trainers.css */
+.trainers-container {
+  text-align: center;
+  margin: 20px;
+}
+
+.trainer-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.trainer-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 15px;
+  width: 250px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.trainer-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.trainer-card h3 {
+  margin-top: 10px;
+  font-size: 1.5em;
+}

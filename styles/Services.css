@@ -1,0 +1,61 @@
+/* Container for the entire services section */
+.service-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #4f4354;
+}
+
+/* General heading */
+.service-heading {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #f9f9f9;
+  margin-bottom: 40px;
+}
+
+/* Service grid layout */
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two services per row */
+  gap: 20px; /* Space between services */
+}
+
+/* Individual service sections */
+.service-section {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+/* Title for each service */
+.service-title {
+  font-size: 1.8rem;
+  color: #34495e;
+  margin-bottom: 10px;
+}
+
+/* Description for each service */
+.service-description {
+  font-size: 1.1rem;
+  color: #7f8c8d;
+  line-height: 1.6;
+}
+
+/* Hover effect on each service section */
+.service-section:hover {
+  transform: translateY(-10px); /* Slight lift on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+}
+
+/* Responsive behavior for smaller screens */
+@media (max-width: 768px) {
+  .service-grid {
+    grid-template-columns: 1fr; /* One service per row on smaller screens */
+  }
+}
